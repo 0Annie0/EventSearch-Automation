@@ -126,18 +126,10 @@ https://docs/allure_overview.png 可上传截图到 docs 目录，这里展示�
 
 📝 待优化项
 
-    □
-
-    支持多 VIN 轮换查询
-    □
-
-    增加接口层（requests）进行后端数据一致性校验
-    □
-
-    集成 Jenkins / GitHub Actions 实现持续集成
-    □
-
-    改用 Playwright 对比实现，体验更现代的 API
+    □ 支持多 VIN 轮换查询
+    □ 增加接口层（requests）进行后端数据一致性校验
+    □ 集成 Jenkins / GitHub Actions 实现持续集成
+    □ 改用 Playwright 对比实现，体验更现代的 API
 
 📄 License
 
