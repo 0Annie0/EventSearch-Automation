@@ -1,0 +1,4 @@
+[32mINFO    [0m tests.test_event_search:test_event_search.py:21 开始测试第 47 行，关键字: 0x11F5
+[32mINFO    [0m tests.test_event_search:test_event_search.py:49 第 47 行: 未找到数据
+[32mINFO    [0m conftest:conftest.py:47 所有用例执行完毕，开始生成测试结果文件...
+[32mINFO    [0m conftest:conftest.py:52 ===== 浏览器已关闭 =====
