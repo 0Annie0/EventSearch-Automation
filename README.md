@@ -23,7 +23,7 @@
 - Allure 命令行工具（可选，用于本地查看报告）
 
 ## 📁 项目结构
-
+```
 EventSearch/
 ├── config.py # 全局配置（URL、账号、Excel路径等）
 ├── conftest.py # Pytest 夹具、钩子函数
@@ -40,7 +40,7 @@ EventSearch/
 ├── drivers/ # 存放 chromedriver.exe（已在.gitignore中忽略）
 ├── test_data.xlsx # 示例测试数据文件（脱敏版本）
 └── README.md
-
+```
 
 ## ⚙️ 安装与运行
 
