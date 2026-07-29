@@ -46,8 +46,8 @@ EventSearch/
 
 ### 1. 克隆仓库
 ```bash
-git clone https://github.com/你的用户名/EventSearch.git
-cd EventSearch
+git clone https://github.com/你的用户名/EventSearch-Automation.git
+cd EventSearch-Automation
 ```
 
 2. 创建虚拟环境并安装依赖
@@ -58,14 +58,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-注意：requirements.txt 内容为：
-```
-pytest
-selenium
-webdriver-manager
-openpyxl
-allure-pytest
-```
+requirements.txt 已包含所有必要依赖（pytest, selenium, webdriver-manager, openpyxl, allure-pytest 等），直接安装即可。
 
 3. 配置 config.py
 复制 config.example.py 为 config.py，并填入自己的测试环境信息：
