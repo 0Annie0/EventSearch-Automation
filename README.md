@@ -91,8 +91,6 @@ allure serve allure-results
 
 📊 报告示例
 
-https://docs/allure_overview.png 可上传截图到 docs 目录，这里展示占位
-
     左侧按 Feature/Story 分类
 
     每个用例标题动态显示搜索关键字和结果
