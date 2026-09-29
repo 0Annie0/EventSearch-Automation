@@ -1,0 +1,5 @@
+[32mINFO    [0m conftest:conftest.py:22 ===== 启动 Chrome 浏览器 =====
+[32mINFO    [0m conftest:conftest.py:32 ✅ 登录成功，当前URL: https://pre-inner-aion-sea-main-service.aionicv.com/main
+[32mINFO    [0m conftest:conftest.py:38 ✅ 已切换到子系统页面，URL: https://pre-inner-aion-sea-operation-management3.aionicv.com/#/welcome
+[32mINFO    [0m tests.test_event_search:test_event_search.py:21 开始测试第 2 行，关键字: 0x1000
+[32mINFO    [0m tests.test_event_search:test_event_search.py:47 第 2 行: 找到数据

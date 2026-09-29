@@ -1,0 +1,2 @@
+[32mINFO    [0m tests.test_event_search:test_event_search.py:21 开始测试第 28 行，关键字: 0x101F
+[32mINFO    [0m tests.test_event_search:test_event_search.py:49 第 28 行: 未找到数据
