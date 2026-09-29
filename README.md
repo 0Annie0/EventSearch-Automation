@@ -50,9 +50,8 @@ git clone https://github.com/你的用户名/EventSearch-Automation.git
 cd EventSearch-Automation
 ```
 
-2. 创建虚拟环境并安装依赖
-bash
-```
+### 2. 创建虚拟环境并安装依赖
+```bash
 python -m venv .venv
 .venv\Scripts\activate   # Windows
 pip install -r requirements.txt
@@ -60,7 +59,8 @@ pip install -r requirements.txt
 
 requirements.txt 已包含所有必要依赖（pytest, selenium, webdriver-manager, openpyxl, allure-pytest 等），直接安装即可。
 
-3. 配置 config.py
+
+### 3. 配置 config.py
 复制 config.example.py 为 config.py，并填入自己的测试环境信息：
 ```
 PORTAL_URL = "你的门户登录页完整URL"
@@ -71,19 +71,22 @@ VIN = "你的VIN码"
 START_TIME = "2026-07-10 00:00:00"
 END_TIME = "2026-07-13 23:59:59"
 ```
-4. 准备 ChromeDriver
+
+### 4. 准备 ChromeDriver
 
 项目默认从本地 drivers/chromedriver.exe 加载驱动（避免自动下载受网络影响）。
 你也可以修改 conftest.py 中的启动方式，使用 webdriver-manager 自动匹配版本。
 
-5. 运行测试
+
+### 5. 运行测试
 ```
 pytest
 ```
 测试用例将依次执行搜索，并生成 _结果.xlsx 文件。
 同时生成 Allure 原始数据目录 allure-results。
 
-6. 查看 Allure 报告
+
+### 6. 查看 Allure 报告
 ```
 allure serve allure-results
 ```
